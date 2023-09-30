@@ -23,3 +23,16 @@ print(str1.find("is"))         #it will  first find the element is present or no
 
 print(str1.index("is"))  # but in index if the element is present in string it will print index 
                           # but if it is not present it will throw error. 
+
+str1 = "WelcomeToTheConsole"
+print(str1.isalnum())  # it will check the string is alpha numeric or not and print true or false.
+
+str1 = "welcome"    # if string has A-Z or a-z then  it will return true otherwisw false
+print(str1.isalpha())
+
+str1 = "Welcome22"   # it has 22 at last so it will return false
+print(str1.isalpha())
+
+
+str2 = "hello all "  # if all the element in string is in lower case then return true 
+print(str2.islower())  # of any one element is capital then return false.
