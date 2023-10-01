@@ -36,3 +36,24 @@ print(str1.isalpha())
 
 str2 = "hello all "  # if all the element in string is in lower case then return true 
 print(str2.islower())  # of any one element is capital then return false.
+
+str1 = "we wish you a happy diwali"
+print(str1.isprintable())  # if all the char in string is printable then return true 
+
+str1 = "we wish you a happy diwali\n"  # it will return false bcz \n is not a printable char.
+print(str1.isprintable())
+
+str1 = "  "
+print(str1.isspace()) # if spaces are there return true 
+
+str1 = "World Health Organization"  # if first letter of each word in string is capital then return true otherwise false
+print(str1.istitle())
+
+str1 = "World health organization" # it will convert all first charactor of string in to capital
+print(str1.title()) # usefull in blog writting 
+
+print(str1.startswith("World")) # check the starting of string if matches return true
+
+str1 = "Python Is a interpret3d language" # it will swap capital letters to small and small to capital
+print(str1.swapcase())
+
