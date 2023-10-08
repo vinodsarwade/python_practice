@@ -12,16 +12,16 @@ name = "vinOd  RagHunath sarwade"
 print(name.capitalize())  # it will capitalize the first charactor of string and all other char. converted in to small
                             # if the string is already in capitalize format then it will no affect on string.
 
-print(a.count("vinod")) # count the number of times vinod word is occured in a varaible.
+print(a.count("vinod")) # count the number of times vinod word is occured in  varaible "a".
 
 str1 = "hello all am going to school !!"
 print(str1.endswith("!!"))   # check if the string is ending with !! if it is true then it will print true.
 
 str1 = "there anyone whos name is vinod"
-print(str1.find("is"))         #it will  first find the element is present or not if present then it will give index of that 
+print(str1.find("is"))         #it will  first find the element "is" present or not if present then it will give index of that 
                            # if not present then it will give  -1 as output.
 
-print(str1.index("is"))  # but in index if the element is present in string it will print index 
+print(str1.index("is"))  # but in index if the element "is" present in string it will print index 
                           # but if it is not present it will throw error. 
 
 str1 = "WelcomeToTheConsole"
@@ -54,6 +54,6 @@ print(str1.title()) # usefull in blog writting
 
 print(str1.startswith("World")) # check the starting of string if matches return true
 
-str1 = "Python Is a interpret3d language" # it will swap capital letters to small and small to capital
+str1 = "Python Is a interpreted Language" # it will swap capital letters to small and small to capital
 print(str1.swapcase())
 
