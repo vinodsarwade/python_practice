@@ -5,11 +5,11 @@ Questions = [
 ]
 
 for i in Questions:
-    question = i["question"]
+    Question = i["question"]
     correct_answer = i["answer"]
     Price = i["price"]
 
-    user_input = input(question+ " ")
+    user_input = input(Question+ " ")
     
     if user_input == correct_answer:
         print("answer is correct")
@@ -17,5 +17,5 @@ for i in Questions:
         print("you are eligible for next question")
     else:
         print("failed")
-        print("you answered wrong correct answer is:",correct_answer)
+        print("you answered wrong, correct answer is:",correct_answer)
         break

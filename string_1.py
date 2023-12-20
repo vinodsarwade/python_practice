@@ -22,8 +22,8 @@ print(name[4])
 # print(name[5])  #it will throw error bcz name has only 4 index if trying to print got error 
 
 
-# for printing multiple lines of strings charactor then it is not possible to use indexins bcz we don't know how many
-#charactor are present and spaces in string 
+# for printing multiple lines of strings charactor then it is not possible to use indexing bcz we don't know how many
+#charactor and spaces are present in string.
 #for we can use for loop to print
 
 print("\n using for loop")

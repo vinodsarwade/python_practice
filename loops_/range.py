@@ -5,7 +5,7 @@ for k in range(5):
     # print(k+1)# print from 0-5
 
 for k in range(1, 10):
-    print(k)  # print from 1 to 100
+    print(k)  # print from 1 to 10
 
 for k in range(0,20,2):  # it will print from 1-20 but  omiting 2 digits like table of 2
     print(k) 

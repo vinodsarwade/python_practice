@@ -8,7 +8,7 @@ elif num <= 0:
 
 elif num == 500:
     print("it is a positive special number!")
-elif num == 500:
+elif num == 100:
     print(" 100 a special number ")
 
 else:

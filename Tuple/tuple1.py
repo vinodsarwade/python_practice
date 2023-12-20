@@ -7,7 +7,7 @@ print(tup[5])
 
 tup1 = (2,)
 print(type(tup1),tup1) #it will print as a type of int bcz only 1 element so python get 
-#confused for thatwe need tog= give quama ex: tup = (2,)
+#confused for that we need give quama ex: tup = (2,)
 
 if 31 in tup:
     print("31 is present")

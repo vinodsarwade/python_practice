@@ -32,7 +32,7 @@ m[0]=0
 print(lst)
 
 m = lst
-m[0]=0  #store list in m and element present at index 0th is replace by o
+m[0]=0  #store list in m and element present at index 0th is replace by 0
 print(lst)
 
 #insert
