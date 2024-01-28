@@ -1,3 +1,5 @@
+#KBC Game
+
 questions = [
     ["which language was used to create facebook ?","pyhton","c++","Javascript","java",1],
     ["which language was used to create whatsapp ?","pyhton","c++","Javascript","java",2],
