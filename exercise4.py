@@ -6,23 +6,24 @@
 
 st = input("enter a message: ")
 words = st.split(" ")
-coding = False
-
-if(coding):
+coding = input("1 for coding and 0 for decoding : ")
+coding = True if (coding == "1") else False
+print(coding)
+if(coding):                                             #encode
     newwords = []
     for word in words :
         if(len(words)>=3):
             r1= "dsf"
             r2 = "gfv"
-            stnew = r1+word[1:]+word[0]+r2
+            stnew = r1+word[1:]+word[0]+r2   #it will add r1 at start and then append first letter to end and then at last add r2
             newwords.append(stnew)
         else:
-            newwords.append(word[:-1])
+            newwords.append(word[:-1])   # it will reverse the string 
     print(" ".join(newwords))
-else:
+else:                                                   #decode
     newwords= []
     for word in words:
-        if (len(word>=3)):
+        if (len(word)>=3):
             stnew = word[3:-3]
             stnew = stnew[-1]+stnew[:-1]
             newwords.append(stnew)
