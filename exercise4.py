@@ -24,8 +24,8 @@ else:                                                   #decode
     newwords= []
     for word in words:
         if (len(word)>=3):
-            stnew = word[3:-3]
-            stnew = stnew[-1]+stnew[:-1]
+            stnew = word[3:-3]   #remove first and last 3 words
+            stnew = stnew[-1]+stnew[:-1] #last letter add to start and then remaining slice from 0 to -1
             newwords.append(stnew)
         else:
             newwords.append(word[:-1])
