@@ -16,7 +16,7 @@ print(newl)
 # Filter
 
 def filter_function(a):
-    return a >3
+    return a > 3
 newnewl = list(filter(filter_function,l))
 print(newnewl)
 
