@@ -17,7 +17,7 @@ print(type(info))
 average = {} # if we want to create empty set but it will create Dic using this.
 print(type(average))
 
-#to create empty set write like thsi
+#to create empty set write like this
 average = set() 
 print(type(average))
 
