@@ -27,4 +27,4 @@ b.occupation = " HR"
 
 a.info()  #calling to method  using object a
 b.info()  #calling to method  using object b
-c.info()
+c.info() 
