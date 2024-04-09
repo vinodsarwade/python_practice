@@ -6,3 +6,10 @@ ex: ndkd.png --> 1.png
     this.png --> 3.png'''
 
 import os
+files = os.listdir("pngFolder")  # take folder
+i = 1
+for image in files:
+    if image.endswith(".png"):  #find images with .png format
+        print(image)
+        os.rename(f"pngFolder/{image}",f"pngFolder/{i}.png") #rename image 
+        i = i + 1  
