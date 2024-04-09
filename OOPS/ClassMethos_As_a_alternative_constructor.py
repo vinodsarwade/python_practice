@@ -8,11 +8,11 @@ class Employee:
     def fromStr(cls,string):
         return cls(string.split("-")[0],int(string.split("-")[1]))
 
-e1 = Employee("vinod",232232)
+e1 = Employee("vinod",232232) #normal method
 print(e1.name)
 print(e1.salary)
 
-string ="John-12737"
+string ="John-12737"  #class method
 e2 = Employee.fromStr(string)
 print(e2.name)
 print(e2.salary)
@@ -30,8 +30,8 @@ class person:
         return cls(name ,int(age))
 
     
-person = person.from_string("john doe, 30")
-print(person.name,person.age)
+obj = person.from_string("john doe, 30")
+print(obj.name,obj.age)
 
 
 
