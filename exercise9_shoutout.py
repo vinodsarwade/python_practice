@@ -10,9 +10,8 @@ speaker = vin.Dispatch("SAPI.Spvoice")
 list = ["Rahul","Nishant","Vinod"]
 
 for i in list:
-    print("shoutout to "+i)
+    print("shoutout to" +i)
 
 for name in list:
-    names = name.split()
-    shoutout = f"Shoutout to {names[0]}"
+    shoutout = f"Shoutout to {name[0]}"
     speaker.Speak(shoutout)
