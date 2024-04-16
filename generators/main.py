@@ -5,7 +5,7 @@ it allow you to generate the values on the fly,rather than having to create and 
 '''it doesnt store value ,it stores the required data to generate a genarative object.'''
 
 #in python you can create a generator by using the 'yield' statement in function.
-#the yield statement returns the value from the generator and  suspends the execution of fun. untill the next valueis requested.
+#the yield statement returns the value from the generator and  suspends the execution of fun. untill the next value is requested.
 
 
 '''Ex : 1'''
