@@ -26,8 +26,6 @@ print(apply(cube, 2)) # here we are passing  cube function and 2 as a argument t
 print(apply(lambda x: x * x * x,2)) # above same we can wrote like this also
 
 
-
-
  #syntax -->lambda arguments: expression
 '''lambda: This keyword is used to define a lambda function.
 arguments: These are the input parameters to the function.

@@ -23,8 +23,8 @@ print("done for 3")
 '''but here in below case we are going to provide same value ,which is already computed, so this cached result will print fastlt without stopping 5 sec.'''
 print(fx(5))
 print("done for 5")
-print(fx(10))
-print("done for 10")
+print(fx(2))
+print("done for 2")
 print(fx(3))
 print("done for 3")
 
