@@ -1,5 +1,5 @@
 ## map filter and reduce function are built in function that allows you to apply a function to a sequence  of elements 
-## and return a new sequence. these fun are known as higher order funcion. as they take other function as a argument.
+## and return a new sequence.these fun are known as higher order funcion.as they take other function as a argument.
 
 #  MAP  #
 #map is used with list only
