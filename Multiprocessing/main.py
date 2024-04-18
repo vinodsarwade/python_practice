@@ -1,3 +1,7 @@
+'''Multiprocessing in Python is a technique used to run multiple processes concurrently, 
+taking advantage of multiple CPU cores to perform tasks in parallel. 
+It's particularly useful for CPU-bound tasks where the performance gain from parallel execution outweighs the overhead of creating and managing processes.'''
+
 import multiprocessing
 import requests
 
