@@ -12,3 +12,5 @@ for num  in range(lower, upper):
         temp = temp // 10  
     if sum == num:
         print(num)
+
+
