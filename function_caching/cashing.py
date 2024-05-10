@@ -11,7 +11,7 @@ def fx(n):
     time.sleep(5)
     return n * 5
 
-'''first it will compute for below valuesas time of 5 sec.each '''
+'''first it will compute for below values as time of 5 sec.each '''
 print(fx(5))
 print("done for 5")
 print(fx(10))
@@ -20,15 +20,13 @@ print(fx(3))
 print("done for 3")
 
 
-'''but here in below case we are going to provide same value ,which is already computed, so this cached result will print fastlt without stopping 5 sec.'''
+'''but here in below case we are going to provide same value ,which is already computed, so this cached result will print fastly without stopping 5 sec.'''
 print(fx(5))
 print("done for 5")
 print(fx(2))
 print("done for 2")
 print(fx(3))
 print("done for 3")
-
-
 
 #method 2 using dictionary  (manually managing cache as per requirment so it gives more control.)
 def cached_function(func):

@@ -1,5 +1,5 @@
 #in file handling we can handle opeartion on files,like open file read ,write ,delete, rename
-# systax is "fileName" ,"mode"
+# syntax is "fileName" ,"mode"
 
 #if the file is exist then only it can open file otherwise throw error.
 #READ MODE

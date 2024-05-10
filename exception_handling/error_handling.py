@@ -12,8 +12,8 @@ except Exception as e: #or we can write only except:
 
 print("below are some imp lines of code")
 
+## Ex 2:
 
-## Ex:
 try:
     num = int(input("enter an integer input :"))
     a = [5,6,3]    # here we have only 3 index list which is 0,1,2

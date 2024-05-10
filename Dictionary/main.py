@@ -4,7 +4,7 @@ dict = {
     "shyam":233,
     "parth":333
     }
-print(dict["parth"]) # it will five id of parth
+print(dict["parth"]) # it will print id of parth
 print(dict) #will print whole dictionary.
 
 info = {"name":"vinod","age":19,"eligible":True}
@@ -27,7 +27,7 @@ print(info.values()) #print values forn dict.
 print(info.items())# it will print all items in dict.
 
 
-for key in info.keys(): # we can print values usinf for loop also 
+for key in info.keys(): # we can print values using for loop also 
     print(f"the values corrosponding to keys {key} are {info[key]}") # it will print values of corrosponding keys
 
 

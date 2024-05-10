@@ -1,4 +1,4 @@
-#tell() method is used to find current location of us , where am in code 
+#tell() method is used to find current location of us, where am in code 
 #which is used to find at which position seek() is started 
 #finding out the from where seek is operating and current location 
 

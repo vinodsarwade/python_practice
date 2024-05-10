@@ -11,8 +11,6 @@
 # finally:
 #     print("am always exicuted. ")
 
-
-
 #using function
 def fun1():
     try:

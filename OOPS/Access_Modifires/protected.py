@@ -28,10 +28,10 @@ print(obj1._funName())
 
 
 
-#if we want to use data from both parent as well subclass then we can create object for subclass
+#if we want to use data from both parent as well as subclass then we can create object for subclass
 # subclass object will access data from parent as well it's own class
 
 
 #it's depend on requirment like how you want to use class. if we want to use data from parent class only then we can make object for that .
-# if we want to use data from bith class parent as well child class then we can make object for both class or we can make object for child class only 
+# if we want to use data from both class parent as well child class then we can make object for both class or we can make object for child class only 
 #bcz it will access data from parent as well.

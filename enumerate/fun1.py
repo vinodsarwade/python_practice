@@ -8,13 +8,11 @@ for mark in marks:
     print(mark)
     if(index == 3):
         print("vinod,awasome")
-    index += 1
-
-
+    index = index + 1
 
 #enum example
 marks = [12,56,32,12,45,1,4] 
-for index, mark in enumerate(marks):
+for index, mark in enumerate (marks):
     print(mark)
     if(index == 3):
         print("vinod cool")
@@ -23,7 +21,7 @@ for index, mark in enumerate(marks):
 #using start==1
 
 marks = [12,56,32,12,45,1,4] 
-for index, mark in enumerate(marks,start=1):
+for index, mark in enumerate(marks, start=1):
     print(mark)
     if(index == 3):
         print("vinod cool")

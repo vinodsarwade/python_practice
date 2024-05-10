@@ -1,13 +1,12 @@
 
 #readline is a function which is read all the present line in a file 
 
-
-# f = open('main.txt','r')
-# while True:
-#     line = f.readline()
-#     if not line:
-#         break
-#     print(line)
+f = open('main.txt','r')
+while True:
+    line = f.readline()
+    if not line:
+        break
+    print(line)
 
 #example 2
 f = open('main2.txt','r')
