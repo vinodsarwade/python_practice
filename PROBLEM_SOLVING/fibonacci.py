@@ -21,5 +21,5 @@ num = int(input("enter a number:"))
 fibonacci(num)
 # print(fibonacci(num))  #it will print final fibonacci number
 
-for i in range(num+1):
+for i in range(num):
     print(fibonacci(i)) # it will print series of number.

@@ -9,6 +9,6 @@ for i in range(nterms+1):
 
 
 '''normal lambda fun'''
-list1 =[1,5,3,6,8,4,2,87]
-nterms = list(map(lambda x: x*2, list1))
-print(nterms)
+# list1 =[1,5,3,6,8,4,2,87]
+# nterms = list(map(lambda x: x*2, list1))
+# print(nterms)
