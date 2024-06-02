@@ -3,7 +3,7 @@
  so it's essential to use it judiciously.'''
 
 
-#here in multiple inheriteance sometimes ambiguity arises when if the tweo parent class has the same method name.
+#here in multiple inheriteance sometimes ambiguity arises when if the two parent class has the same method name.
 #here in below case in both Employee and dance class i have a method named show() which is same name in both class.
 #when i created child class from this two parent class. due to same name it will just print the data in a single method.
 class Employee:
@@ -15,7 +15,6 @@ class Employee:
 class dancer:
     def __init__(self,dance):
         self.dance = dance
-
     def show(self):
         print(print(f"he doing {self.dance}"))
 

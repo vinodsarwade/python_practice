@@ -1,4 +1,4 @@
-'''Regular expressions (regex) in Python are powerful tools for pattern matching and text manipulation. Python provides the re module for working with regular expressions. '''
+'''Regular expressions (regex) in Python are powerful tools for pattern matching and text manipulation. Python provides the 're' module for working with regular expressions. '''
 
 import re
 pattern = "you+[a-z]"   # pattern to find in text.

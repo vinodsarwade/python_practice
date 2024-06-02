@@ -62,7 +62,6 @@ thread2.join()
 print("Both threads have finished execution.")
 
 
-
 '''The following are the advantages of using Python for multithreading:
 
 It guarantees powerful usage of PC framework assets.

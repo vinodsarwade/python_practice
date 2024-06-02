@@ -1,7 +1,7 @@
-#lambda is a anonymous function which is defined using lambda keyword.
-#lambda function is mostly used  when we want to pass function as a argument
-#and also used for single liner function.
-#also we can pass function as a function.
+'''lambda is a anonymous function which is defined using lambda keyword.
+lambda function is mostly used  when we want to pass function as a argument
+and also used for single liner function.
+also we can pass function as a function.'''
 
 def double(x):
     return x * 2
@@ -16,26 +16,32 @@ def apply(fx, value):
     return 6 + fx(value) #here we return 6 + cube(2) = 14
 
 cube = lambda x: x * x * x
-avg = lambda x , y, z:(x + y + z)/2
+avg = lambda x , y, z:(x + y + z)/3
 
 
 print(cube(5))
 print(avg(3,5,10))
 
 print(apply(cube, 2)) # here we are passing  cube function and 2 as a argument to apply function.
-print(apply(lambda x: x * x * x,2)) # above same we can wrote like this also
+# print(apply(lambda x: x * x * x,2))    # above same we can wrote like this also
 
 
- #syntax -->lambda arguments: expression
+ #syntax --> var name = lambdaFun arguments: expression
 '''lambda: This keyword is used to define a lambda function.
 arguments: These are the input parameters to the function.
 expression: This is the single expression or operation that the function performs. 
             The result of this expression is implicitly returned.'''
 
-add = lambda x, y: x + y
-print(add(3, 5))  # Output: 8
-
 
 numbers = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x**2, numbers))
 print(squared)  # Output: [1, 4, 9, 16, 25]
+
+
+x = list(map(float, input("Enter numbers for x separated by space: ").split()))
+y = list(map(float, input("Enter numbers for y separated by space: ").split()))
+
+add = list(map(lambda a, b: a + b, x, y))
+print(add)
+
+
