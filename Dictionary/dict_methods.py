@@ -26,3 +26,4 @@ print(emp1) # it will autometically pop last item in the dict
 ### del ###
 del emp1  # to delete whole dict
 print(emp1)
+

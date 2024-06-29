@@ -25,7 +25,7 @@ import time
 # print("this will print after 5 seconds")
 
 
-'''time.strftime()  -->string formated time'''
+'''time.strftime()  -->staring formated time'''
 
 t = time.localtime()
 formated_time = time.strftime("%Y-%m-%d %H:%M:%S",t)
