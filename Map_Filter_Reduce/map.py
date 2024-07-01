@@ -10,6 +10,15 @@ l = [1,2,4,6,7,8,9]
 
 newl = list(map(lambda x: x* x* x ,l))
 print(newl)
+'''map function will work on each and every element in list/tuple and return it'''
+students = [
+    ("vinod", 92),
+    ("vishal",96),
+    ("aakash",87),
+    ("shyam",76)
+]
+new_list = list(map(lambda x: x[1],students))
+print(new_list)
 
 
 
@@ -19,6 +28,18 @@ def filter_function(a):
     return a > 3
 newnewl = list(filter(filter_function,l))
 print(newnewl)
+'''but filter will check codition and then execute.'''
+#ex: 2
+students = [
+    ("vinod", 92),
+    ("vishal",96),
+    ("aakash",87),
+    ("shyam",76)
+]
+new_list = list(filter(lambda x: x[1] > 90,students))
+print(new_list)
+
+
 
 
 # reduce 
