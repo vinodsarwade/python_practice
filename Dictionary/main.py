@@ -11,6 +11,7 @@ info = {"name":"vinod","age":19,"eligible":True}
 print(info)
 print(info.get('name')) # it will return value  of key which we want to print.
 
+
 info = {"name":"vinod","age":19,"eligible":True}
 print(info)
 print(info.get('name2')) #it will print none bcz name2 is not a key in info
@@ -32,4 +33,30 @@ for key in info.keys(): # we can print values using for loop also
 
 
 
+'''TECHGUN'''
 
+#we can make dict using this below also
+# dic1 = dict(name = "vinod", branch = "AI")
+
+info1 = {
+    "name":"vinod",
+    "age":19,
+    "eligible":True}
+
+info1["name"] = "shyam"
+info1["contact no"] = 354667676
+print(info1)
+
+#using if else we can check weather item is present or not
+if "name" in info1 :
+    print(info1["name"])
+
+
+# or we can use  .get fun also to access elements in dict
+print(info1.get("name"))
+
+
+print(info1.get("mobile")) # here in this case "mobile" is not present in info1 dict so it will return None
+
+print(info1.get("mobile", 44564539))# if we dont want to return None then we can pass default value.
+                                    # if the item is not present then it will autometically take default item and return it. 
